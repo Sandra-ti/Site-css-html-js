@@ -1,0 +1,245 @@
+body {
+	background: #ffb744 url(../images/bg-body.jpg) repeat left bottom;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24PX;
+	margin: 0;
+}
+#background {
+	background: url(../images/bg-pattern.jpg) repeat-x center top;
+	min-height: 1318px;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+img {
+	border: 0;
+}
+/*------------------------------ Classes ------------------------------*/
+.circle {
+    border-radius: 100%;
+}
+.container1{
+	text-align: center;
+}
+/*------------------------------ ID ------------------------------*/
+#tempo{
+	font: bold 60px Arial;
+	text-align: center;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+  }
+  
+  .form-contact {
+	width: 100%;
+	font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-input {
+	width: 100%;
+	color: #292929;
+	font-size: 18px;
+	background-color: #E9E9E9;
+	border: 1px solid #E9E9E9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	height: 40px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+	width: 100%;
+	color: #292929;
+	font-size: 18px;
+	background-color: #E9E9E9;
+	border: 1px solid #E9E9E9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	height: 200px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	text-indent: 20px;
+	padding-top: 16px;
+	padding-left: 0;
+	padding-right: 0;
+	font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-button {
+	width: 100%;
+	font-size: 18px;
+	border-radius: 4px;
+	color: #fff;
+	height: 40px;
+	opacity: .8;
+	margin-bottom: 20px;
+	cursor: pointer;
+	background: #B22222;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #500707;
+	border-right: 1px solid #500707;
+	transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+	opacity: 1;
+  }
+
+/*------------------------------ Sprites ------------------------------*/
+#navegacao li, #navegacao li a:hover, #navegacao li.selected a {
+	background-image: url(../images/bg-menu.png);
+	background-repeat: repeat-x;
+}
+#contents div.box, #contents div.box > div, #contents div.body {
+	background-image: url(../images/content-box.png);
+	background-repeat: no-repeat;
+}
+#main div.box, #main div.box > div, #main div.box > div > div {
+	background-image: url(../images/bg-box.png);
+	background-repeat: no-repeat;
+}
+/*------------------------------ Cabeçalho------------------------------*/
+#header {
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+/** Logo **/
+#logo {
+	float: left;
+}
+/** Navegação superior da página **/
+#navegacao {
+	background: url(../images/bg-navigation.png) no-repeat;
+	clear: both;
+	height: 50px;
+	width: 860px;
+	margin: 0 auto;
+	padding: 1px;
+}
+#navegacao ul {
+	display: inline-block;
+	width: 860px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navegacao li {
+	float: left;
+	background-position: 0 -118px;
+	background-repeat: no-repeat;
+	height: 49px;
+	width: 122px;
+	margin: 0;
+	padding-left: 1px;
+	text-align: center;
+}
+#navegacao li:first-child {
+	background: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+#navegacao li a {
+	color: #fff;
+	display: block;
+	font: bold 14px/48px Arial, Helvetica, sans-serif;
+	height: 49px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navegacao li a:hover {
+	background-position: 0 -59px;
+	color:  #6d6157;
+}
+#navegacao li.selected a {
+	background-position: 0 0;
+	color: #e4e1bd;
+}
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	display: inline-block;
+	width: 865px;
+	padding: 0 47px;
+}
+#contents h1 {
+	color: #316e66;
+	font: 26px/30px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	padding-left: 2px;
+	text-transform: uppercase;
+}
+#contents div.body h1, #contents h2 {
+	color: #316e66;
+	font: 30px/30px "Times New Roman", Times, serif;
+	margin: 0 0 18px;
+	text-transform: uppercase;
+}
+
+#contents p {
+	color: #5a4535;
+	font-size: 15px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 24px 2px;
+}
+#contents p a {
+	color: #5a4535;
+}
+#contents p a:hover, #news div.sidebar ul li a:hover {
+	color: #917157;
+}
+
+/*------------------------------ Rodapé ------------------------------*/
+
+#footer {
+	color: #594334;
+	font-size: 14px;
+	line-height: 48px;
+	margin: -38px 0 20px;
+	padding-top: 42px;
+	text-transform: uppercase;
+}
+
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	text-transform: none;
+}
+
+
+/*----------------------------Imagens Passando ------------------------------*/
+
+#slider {
+	position: relative;
+	width: 590px;
+	margin: 0px auto 20px auto;
+}
+
+#slider .viewer {
+	width: 590px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#slider .viewer .reel {
+	display: none;
+	height: 300px;
+}
+
+#slider .viewer .reel .slide {
+	position: relative;
+	width: 590px;
+	height: 300px;
+}
+
